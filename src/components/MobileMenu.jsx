@@ -1,111 +1,4 @@
-//////Normal From Top to Botton Interaction
 
-// // import React from "react";
-
-// // const MobileMenu = ({ menuOpen, setMenuOpen }) => {
-// //   return (
-// //     <div
-// //       className={`fixed top-0 left-0 w-full bg-[rgba(10,10,10,.8)] z-40 flex flex-col items-center justify-center transition-all duration-800 ease ${
-// //         menuOpen
-// //           ? "h-screen opacity-100 pointer-events-auto"
-// //           : "h-0 opacity-0 pointer-events-none"
-// //       }`}
-// //     >
-// //       <button
-// //         onClick={() => setMenuOpen(false)}
-// //         className="absolute top-6 right-6 text-white text-3xl focus:outline-none cursor-pointer"
-// //         aria-label="Close menu"
-// //       >
-// //         &times;
-// //       </button>
-// //       <a
-// //         href="#home"
-// //         className="text-gray-400 text-2xl hover:text-white  transition-colors mb-10 "
-// //         onClick={() => setMenuOpen(false)}
-
-// //       >
-// //         Home
-// //       </a>
-// //       <a
-// //         href="#projects"
-// //         className="text-gray-400 text-2xl hover:text-white transition-colors mb-10"
-// //         onClick={() => setMenuOpen(false)}
-// //       >
-// //         Projects
-// //       </a>
-// //       <a
-// //         href="#about"
-// //         className="text-gray-400 text-2xl hover:text-white transition-colors mb-10"
-// //         onClick={() => setMenuOpen(false)}
-// //       >
-// //         About
-// //       </a>
-// //       <a
-// //         href="#contact"
-// //         className="text-gray-400 text-2xl hover:text-white transition-colors mb-10"
-// //         onClick={() => setMenuOpen(false)}
-// //       >
-// //         Contact
-// //       </a>
-// //     </div>
-// //   );
-// // };
-
-// // export default MobileMenu;
-//////GPT From Right to Left Interaction
-
-// import React from "react";
-
-// const MobileMenu = ({ menuOpen, setMenuOpen }) => {
-//   return (
-//     <div
-//       className={`fixed top-0 left-0 w-full h-screen bg-[rgba(10,10,10,.8)] z-40 flex flex-col items-center justify-center transition-transform duration-800 ease-in-out ${
-//         menuOpen ? "translate-x-0" : "translate-x-full"
-//       }`}
-//     >
-//       <button
-//         onClick={() => setMenuOpen(false)}
-//         className="absolute top-6 right-6 text-3xl focus:outline-none cursor-pointer "
-//         aria-label="Close menu"
-        
-//       >
-//       <span className="text-red" style={{color:"hsl(0, 100%, 70%)"}}>&times;</span>  
-//       </button>
-//       <a
-//         href="#home"
-//         className="text-gray-400 text-2xl hover:text-white transition-colors mb-10"
-//         onClick={() => setMenuOpen(false)}
-//       >
-//         Home
-//       </a>
-//       <a
-//         href="#projects"
-//         className="text-gray-400 text-2xl hover:text-white transition-colors mb-10"
-//         onClick={() => setMenuOpen(false)}
-//       >
-//         Projects
-//       </a>
-//       <a
-//         href="#about"
-//         className="text-gray-400 text-2xl hover:text-white transition-colors mb-10"
-//         onClick={() => setMenuOpen(false)}
-//       >
-//         About
-//       </a>
-//       <a
-//         href="#contact"
-//         className="text-gray-400 text-2xl hover:text-white transition-colors mb-10"
-//         onClick={() => setMenuOpen(false)}
-//       >
-//         Contact
-//       </a>
-//     </div>
-//   );
-// };
-
-// export default MobileMenu;
-
-//////GPT Active ancher tag color changing on scroll
 import React, { useState, useEffect } from "react";
 
 const MobileMenu = ({ menuOpen, setMenuOpen }) => {
@@ -113,7 +6,7 @@ const MobileMenu = ({ menuOpen, setMenuOpen }) => {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = document.querySelectorAll("section"); // Assuming each section is wrapped in a <section> tag
+      const sections = document.querySelectorAll("section"); 
       let currentSection = "";
 
       sections.forEach((section) => {
