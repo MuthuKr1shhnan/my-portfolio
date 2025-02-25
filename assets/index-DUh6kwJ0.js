@@ -58,7 +58,7 @@ Error generating stack: `+e.message+`
             hover:-translate-y-1 hover:border-blue-500/30\r
             hover:shadow-[0_4px_20px_rgba(59,130,246,0.1)]\r
             transition-all\r
-          `,children:[g.jsx("h3",{className:"text-xl font-bold mb-2",children:" Weather Site "}),g.jsxs("p",{className:"text-gray-400 mb-4",children:["I've built a weather app using an API, added a title effect to the weather card, implemented error handling, and designed a clean, user-friendly UI."," "]}),g.jsx("div",{className:"flex flex-wrap gap-2 mb-4",children:["Html","Css"].map((E,p)=>g.jsx("span",{className:`\r
+          `,children:[g.jsx("h3",{className:"text-xl font-bold mb-2",children:" Weather Site "}),g.jsxs("p",{className:"text-gray-400 mb-4",children:["I've built a weather app using an API, added a title effect to the weather card, implemented error handling, and designed a clean, user-friendly UI."," "]}),g.jsx("div",{className:"flex flex-wrap gap-2 mb-4",children:["Html","Css","React"].map((E,p)=>g.jsx("span",{className:`\r
                     bg-blue-500/10 text-blue-500 py-1 px-3 \r
                     rounded-full text-sm\r
                     transition\r
@@ -69,21 +69,21 @@ Error generating stack: `+e.message+`
             hover:-translate-y-1 hover:border-blue-500/30\r
             hover:shadow-[0_4px_20px_rgba(59,130,246,0.1)]\r
             transition-all\r
-          `,children:[g.jsx("h3",{className:"text-xl font-bold mb-2",children:"Score Card Ui"}),g.jsx("p",{className:"text-gray-400 mb-4",children:"A highly responsive UI designed for optimal performance and adaptability."}),g.jsx("div",{className:"flex flex-wrap gap-2 mb-4",children:["Css","Html"].map(E=>g.jsx("span",{className:`\r
-                    bg-blue-500/10 text-blue-500 py-1 px-3 \r
-                    rounded-full text-sm\r
-                    transition\r
-                    hover:bg-blue-500/20 hover:-translate-y-0.5\r
-                    hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)]\r
-                  `,children:E},E))}),g.jsx("div",{className:"flex justify-between items-center",children:g.jsx("a",{href:"https://muthukr1shhnan.github.io/ScoreCard/",className:"text-blue-400 hover:text-blue-300 transition-colors my-4",target:"_blank",children:"View Project →"})})]}),g.jsxs("div",{className:`\r
-            glass p-6 rounded-xl border border-white/10 \r
-            hover:-translate-y-1 hover:border-blue-500/30\r
-            hover:shadow-[0_4px_20px_rgba(59,130,246,0.1)]\r
-            transition-all\r
           `,children:[g.jsx("h3",{className:"text-xl font-bold mb-2",children:"Movie Ticket Booking"}),g.jsx("p",{className:"text-gray-400 mb-4",children:"A frontend task with HTML, CSS, and JavaScript, featuring drag-and-drop and error handling."}),g.jsx("div",{className:"flex flex-wrap gap-2 mb-4",children:["Java Script","Css","Html"].map((E,p)=>g.jsx("span",{className:`\r
                     bg-blue-500/10 text-blue-500 py-1 px-3 \r
                     rounded-full text-sm\r
                     transition\r
                     hover:bg-blue-500/20 hover:-translate-y-0.5\r
                     hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)]\r
-                  `,children:E},p))}),g.jsx("div",{className:"flex justify-between items-center",children:g.jsx("a",{href:"https://muthukr1shnan.github.io/Movie-Ticket-Booking/",className:"text-blue-400 hover:text-blue-300 transition-colors my-4",target:"_blank",children:"View Project →"})})]})]})]})})});function Vo(){const[E,p]=ot.useState(!1),[U,o]=ot.useState(!1);return g.jsxs(g.Fragment,{children:[!E&&g.jsx(Uo,{onComplete:()=>p(!0)}),g.jsxs("div",{className:`min-h-screen transition-opacity duration-700 ${E?"opacity-100":"opacity-0"} bg-black text-gray-100 overflow-x-hidden`,children:[g.jsx(Ro,{menuOpen:U,setMenuOpen:o}),g.jsx(jo,{menuOpen:U,setMenuOpen:o}),g.jsx(Qo,{}),g.jsx(Ho,{}),g.jsx(Zo,{}),g.jsx(Co,{})]})]})}No.createRoot(document.getElementById("root")).render(g.jsx(ot.StrictMode,{children:g.jsx(Vo,{})}));
+                  `,children:E},p))}),g.jsx("div",{className:"flex justify-between items-center",children:g.jsx("a",{href:"https://muthukr1shnan.github.io/Movie-Ticket-Booking/",className:"text-blue-400 hover:text-blue-300 transition-colors my-4",target:"_blank",children:"View Project →"})})]}),g.jsxs("div",{className:`\r
+            glass p-6 rounded-xl border border-white/10 \r
+            hover:-translate-y-1 hover:border-blue-500/30\r
+            hover:shadow-[0_4px_20px_rgba(59,130,246,0.1)]\r
+            transition-all\r
+          `,children:[g.jsx("h3",{className:"text-xl font-bold mb-2",children:"Score Card Ui"}),g.jsx("p",{className:"text-gray-400 mb-4",children:"A highly responsive UI designed for optimal performance and adaptability."}),g.jsx("div",{className:"flex flex-wrap gap-2 mb-4",children:["Css","Html"].map(E=>g.jsx("span",{className:`\r
+                    bg-blue-500/10 text-blue-500 py-1 px-3 \r
+                    rounded-full text-sm\r
+                    transition\r
+                    hover:bg-blue-500/20 hover:-translate-y-0.5\r
+                    hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)]\r
+                  `,children:E},E))}),g.jsx("div",{className:"flex justify-between items-center",children:g.jsx("a",{href:"https://muthukr1shhnan.github.io/ScoreCard/",className:"text-blue-400 hover:text-blue-300 transition-colors my-4",target:"_blank",children:"View Project →"})})]})]})]})})});function Vo(){const[E,p]=ot.useState(!1),[U,o]=ot.useState(!1);return g.jsxs(g.Fragment,{children:[!E&&g.jsx(Uo,{onComplete:()=>p(!0)}),g.jsxs("div",{className:`min-h-screen transition-opacity duration-700 ${E?"opacity-100":"opacity-0"} bg-black text-gray-100 overflow-x-hidden`,children:[g.jsx(Ro,{menuOpen:U,setMenuOpen:o}),g.jsx(jo,{menuOpen:U,setMenuOpen:o}),g.jsx(Qo,{}),g.jsx(Ho,{}),g.jsx(Zo,{}),g.jsx(Co,{})]})]})}No.createRoot(document.getElementById("root")).render(g.jsx(ot.StrictMode,{children:g.jsx(Vo,{})}));
