@@ -34,7 +34,7 @@ const Projects = () => {
 
             <div className="flex justify-between items-center">
               <a
-                href="#"
+                href="https://muthukr1shhnan.github.io/insta/"
                 className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 target="_blank"
               >
@@ -132,7 +132,7 @@ const Projects = () => {
           >
             <h3 className="text-xl font-bold mb-2">Restaurant Ui </h3>
             <p className="text-gray-400 mb-4">
-              A Restaurant Ui with a sleek design.
+            Weather Site
             </p>
             <div className="flex flex-wrap gap-2 mb-4">
               {["Html", "Css"].map((tech, key) => (
@@ -152,7 +152,7 @@ const Projects = () => {
             </div>
             <div className="flex justify-between items-center ">
               <a
-                href="https://muthukr1shnan.github.io/Hotel/"
+                href="https://muthukr1shhnan.github.io/weatherapp/"
                 className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 target="_blank"
               >
